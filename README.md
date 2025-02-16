@@ -33,6 +33,10 @@ Single-Threaded
 Multi-Threaded
 ![image](https://github.com/user-attachments/assets/c6be5d1b-30b5-485b-89d3-0277662984ef)
 
+### Future Work
+
+While the TCP protocol ensures reliable transmission, for fault tolerance, there could definitely be work done to identify and handle errors during transmission at the application layer. Especially in the case of a potential node failure during transmission. Timeouts could be useful for this.
+
 
 
 
