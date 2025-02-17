@@ -1,7 +1,5 @@
 # Distributed NYC Taxi Data Analysis
 
-This is a project implemented as part of a course.
-
 This project utilizes the MapReduce paradigm to, at a high level, obtain the top-k drivers from a publicly available NYC Taxi dataset with respect to their revenue per minute. On top of MapReduce, I gained a better understanding of multithreading, parallelization, networking, and communication between nodes in a distributed system. At the same time, I demonstrated proficiency in Java, and learned to run this cluster through Google Cloud.
 
 Link to Dataset: https://chriswhong.com/open-data/foil_nyc_taxi/
