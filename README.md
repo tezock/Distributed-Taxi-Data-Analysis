@@ -13,6 +13,31 @@ drivers from both reducers.
 
 <img src="https://github.com/user-attachments/assets/e3a4eba4-0d47-49e5-8c96-c80c98b917f4" width="600">
 
+# Running on Google Cloud
+
+#### Provisioned VM Instances
+<img width="1512" alt="Screenshot 2025-02-16 at 10 30 10 PM" src="https://github.com/user-attachments/assets/2ff44fed-706a-44cc-9fe5-023d4c92a31d" />
+
+
+#### Results from Each Machine
+
+##### Mapper Client
+
+From the perspective of the mapper, querying took just over an hour! Most of the time was spent on reading from disk, though multithreading definitely helps.
+<img width="1256" alt="Screenshot 2025-02-16 at 10 28 33 PM" src="https://github.com/user-attachments/assets/91cc44cd-ba07-40af-83b7-d506aba228c2" />
+
+#### Reducer Server
+<img width="1007" alt="Screenshot 2025-02-16 at 10 29 18 PM" src="https://github.com/user-attachments/assets/c8165b31-1eaf-45df-ae3d-2684b867053c" />
+
+#### Merger Server
+<img width="826" alt="Screenshot 2025-02-16 at 10 29 02 PM" src="https://github.com/user-attachments/assets/874685ec-3d2f-483a-b44d-e86c7d78f4c0" />
+
+#### Results
+
+The records for each record are duplicated here, though I used the same dataset for each mapper so this is to be expected.
+<img width="906" alt="Screenshot 2025-02-16 at 10 29 42 PM" src="https://github.com/user-attachments/assets/4459c7be-fa02-4c31-81af-3043b38ca3aa" />
+
+
 # Notes & Learnings
 
 ### Sockets
