@@ -21,7 +21,7 @@ drivers from both reducers.
 
 ##### Mapper Client
 
-From the perspective of the mapper, querying took just over an hour! Most of the time was spent on reading from disk, though multithreading definitely helps.
+From the perspective of the mapper on an e2-standard VM, querying took just over an hour! Most of the time was spent on reading from disk, though multithreading definitely helps.
 <img width="1250" alt="Screenshot 2025-02-17 at 12 53 51 AM" src="https://github.com/user-attachments/assets/bfc0e20a-0e1b-416f-a733-aaf76fd46f74" />
 
 
