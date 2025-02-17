@@ -16,7 +16,7 @@ drivers from both reducers.
 # Running on Google Cloud
 
 #### Provisioned VM Instances
-<img width="1512" alt="Screenshot 2025-02-16 at 10 30 10 PM" src="https://github.com/user-attachments/assets/2ff44fed-706a-44cc-9fe5-023d4c92a31d" />
+<img width="1180" alt="Screenshot 2025-02-17 at 12 52 06 AM" src="https://github.com/user-attachments/assets/b7aa16b2-126c-4f5f-bd9c-70c6113c27c2" />
 
 
 #### Results from Each Machine
@@ -24,10 +24,11 @@ drivers from both reducers.
 ##### Mapper Client
 
 From the perspective of the mapper, querying took just over an hour! Most of the time was spent on reading from disk, though multithreading definitely helps.
-<img width="1256" alt="Screenshot 2025-02-16 at 10 28 33 PM" src="https://github.com/user-attachments/assets/91cc44cd-ba07-40af-83b7-d506aba228c2" />
+<img width="1250" alt="Screenshot 2025-02-17 at 12 53 51 AM" src="https://github.com/user-attachments/assets/bfc0e20a-0e1b-416f-a733-aaf76fd46f74" />
+
 
 #### Reducer Server
-<img width="1007" alt="Screenshot 2025-02-16 at 10 29 18 PM" src="https://github.com/user-attachments/assets/c8165b31-1eaf-45df-ae3d-2684b867053c" />
+<img width="1002" alt="Screenshot 2025-02-17 at 12 55 21 AM" src="https://github.com/user-attachments/assets/80dc50ac-c0b4-4763-b9fd-11d907118bce" />
 
 #### Merger Server
 <img width="826" alt="Screenshot 2025-02-16 at 10 29 02 PM" src="https://github.com/user-attachments/assets/874685ec-3d2f-483a-b44d-e86c7d78f4c0" />
