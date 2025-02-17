@@ -106,6 +106,8 @@ mvn clean compile exec:java@mapperclient -Dexec.args="<host-1-name> <host-1-port
 
 Note: It is important to run these commands in order, and in separate terminals.
 
+If running on different machines, it's fine to reuse the same port. however, the servers must run on different ports if running on the same machine.
+
 1. ```mvn clean compile exec:java@mergeserver -Dexec.args="33333 output" ```
 2. ```mvn clean compile exec:java@reducerserver -Dexec.args="33334 localhost 33333"```
 3. ```mvn clean compile exec:java@reducerserver -Dexec.args="33335 localhost 33333"```
